@@ -1,6 +1,6 @@
 import React from "react"
 import "./main.css"
-
+import slika from "../Images/slika.jpg"
 
 const Main = () => {
     return (
@@ -22,7 +22,7 @@ const Main = () => {
             </div>
 
             
-            <img className="mainImg" src="../images/slika.jpg"  ></img>
+            <img className="mainImg" src={slika}  ></img>
            
  
     </section>
