@@ -1,7 +1,7 @@
 import React from "react"
 import "./main.css"
-import slika from "../Images/slika.jpg"
-import hireme from "../Images/hireme.png"
+import slika from "./../Images/slika.jpg"
+import hireme from "./../Images/hireme.png"
 
 const Main = () => {
     return (
