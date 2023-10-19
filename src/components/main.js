@@ -16,7 +16,7 @@ const Main = () => {
                 Well, sometimes the <br/> answer is right in front of you 😄  </p>
                 
                 <button>
-                    <img src="../../portfolio2/hireme.png"></img>
+                    <img src="./portfolio2/hireme.png"></img>
                     <p className="p2"> Hire me so <span>[I CODE]</span> watch your businesses <span>[BUG]</span>! </p>
                 </button>
             </div>
