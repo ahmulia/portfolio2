@@ -1,6 +1,7 @@
 import React from "react"
 import "./main.css"
 import slika from "../Images/slika.jpg"
+import hireme from "../Images/hireme.png"
 
 const Main = () => {
     return (
@@ -16,7 +17,7 @@ const Main = () => {
                 Well, sometimes the <br/> answer is right in front of you 😄  </p>
                 
                 <button>
-                    <img src="../Images/hireme.png"></img>
+                    <img src={hireme}></img>
                     <p className="p2"> Hire me so <span>[I CODE]</span> watch your businesses <span>[BUG]</span>! </p>
                 </button>
             </div>
