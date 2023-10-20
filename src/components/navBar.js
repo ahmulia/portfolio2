@@ -1,7 +1,7 @@
 import React from 'react'
 import "./navBar.css"
 import { Link } from "react-scroll";
-
+import logo from "../Images/logo.png.png"
 
 
 const NavBar = () => {
@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <nav id="navBar">
         
-            <img className='W' src='../images/logo.png.png'></img>
+            <img className='W' src={logo}></img>
 
             <div className='sections'>
                 <Link activeClass="active" to="main" spy={true}  smooth={true} offset={-100} duration={500} className='ccc'>Home</Link>      
